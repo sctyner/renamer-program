@@ -7,6 +7,10 @@ TODO: Keep first plot from changing focus from the terminal window.
 Author: Jason Saporta
 Date: 3/19/2018
 """
+"""
+line below is necessary for python 2 (i think it's a 2 v 3 issue. it wouldn't run on my system without it.) 
+from __future__ import print_function
+"""
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from glob import glob
 
